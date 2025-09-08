@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Investieren Lernen</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta
+            name="keywords"
+            content="Startup-Investitionen, Marktanalysen, Finanzstrategien, Technologietrends, KI-Anwendungen, Unternehmensbewertungen, Risikomanagement, Finanzinstrumente, Wachstumsstrategien, Investitionswissen"
+        />
+        <meta
+            name="description"
+            content="Bildungsblog über Investitionen in Startups. Entdecken Sie detaillierte Marktanalysen, Bewertungen von Finanzinstrumenten und Strategien sowie Einblicke in Technologien wie Künstliche Intelligenz, die die Startup-Welt prägen."
+        />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-border position-relative text-primary"
+                style="width: 6rem; height: 6rem"
+                role="status"
+            ></div>
+            <i
+                class="fa fa-laptop-code fa-2x text-primary position-absolute top-50 start-50 translate-middle"
+            ></i>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar Start -->
+        <nav
+            class="navbar navbar-expand-lg bg-primary navbar-dark sticky-top py-lg-0 px-lg-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <a href="#" class="navbar-brand ms-3 d-lg-none">MENÜ</a>
+            <button
+                type="button"
+                class="navbar-toggler me-3"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <h4 style="font-weight: bold">Investieren Lernen</h4>
+                <div class="navbar-nav p-3 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link"
+                        >Startseite</a
+                    >
+                    <a href="index.html#about" class="nav-item nav-link"
+                        >Über uns</a
+                    >
+                    <a href="index.html#service" class="nav-item nav-link"
+                        >Services</a
+                    >
+                    <a href="index.html#team" class="nav-item nav-link">Team</a>
+                    <a href="index.html#contact" class="nav-item nav-link"
+                        >Kontakt</a
+                    >
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0 mb-5 wow fadeIn" data-wow-delay="0.1s">
+            <div
+                id="header-carousel"
+                class="carousel slide"
+                data-bs-ride="carousel"
+            >
+                <div class="carousel-indicators">
+                    <button
+                        type="button"
+                        data-bs-target="#header-carousel"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-current="true"
+                        aria-label="Slide 1"
+                    >
+                        <img
+                            class="img-fluid"
+                            src="img/carousel-1.jpg"
+                            alt="Image"
+                        />
+                    </button>
+                    <button
+                        type="button"
+                        data-bs-target="#header-carousel"
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2"
+                    >
+                        <img
+                            class="img-fluid"
+                            src="img/carousel-2.jpg"
+                            alt="Image"
+                        />
+                    </button>
+                    <button
+                        type="button"
+                        data-bs-target="#header-carousel"
+                        data-bs-slide-to="2"
+                        aria-label="Slide 3"
+                    >
+                        <img
+                            class="img-fluid"
+                            src="img/carousel-3.jpg"
+                            alt="Image"
+                        />
+                    </button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img
+                            class="w-100"
+                            src="img/carousel-1.jpg"
+                            alt="Image"
+                        />
+                        <div class="carousel-caption">
+                            <div class="p-3" style="max-width: 900px">
+                                <h4
+                                    class="text-white text-uppercase mb-4 animated zoomIn"
+                                >
+                                    Startups im Fokus
+                                </h4>
+                                <h1
+                                    class="display-1 text-white mb-0 animated zoomIn"
+                                >
+                                    Analysen, Strategien und Einblicke in junge
+                                    Unternehmen
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            class="w-100"
+                            src="img/carousel-2.jpg"
+                            alt="Image"
+                        />
+                        <div class="carousel-caption">
+                            <div class="p-3" style="max-width: 900px">
+                                <h4
+                                    class="text-white text-uppercase mb-4 animated zoomIn"
+                                >
+                                    Markttrends verstehen
+                                </h4>
+                                <h1
+                                    class="display-1 text-white mb-0 animated zoomIn"
+                                >
+                                    Datenbasierte Einblicke und Analysen für
+                                    Startup-Investitionen
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            class="w-100"
+                            src="img/carousel-3.jpg"
+                            alt="Image"
+                        />
+                        <div class="carousel-caption">
+                            <div class="p-3" style="max-width: 900px">
+                                <h4
+                                    class="text-white text-uppercase mb-4 animated zoomIn"
+                                >
+                                    Technologie & Innovation
+                                </h4>
+                                <h1
+                                    class="display-1 text-white mb-0 animated zoomIn"
+                                >
+                                    KI-Technologien und Strategien für wachsende
+                                    Startups
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#header-carousel"
+                    data-bs-slide="prev"
+                >
+                    <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Vorherige</span>
+                </button>
+                <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#header-carousel"
+                    data-bs-slide="next"
+                >
+                    <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Nächste</span>
+                </button>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- Facts Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-4">
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div
+                            class="fact-item bg-light rounded text-center h-100 p-5"
+                        >
+                            <i
+                                class="fa fa-certificate fa-4x text-primary mb-4"
+                            ></i>
+                            <h5 class="mb-3">Jahre Erfahrung</h5>
+                            <h1 class="display-5 mb-0" data-toggle="counter-up">
+                                8
+                            </h1>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div
+                            class="fact-item bg-light rounded text-center h-100 p-5"
+                        >
+                            <i
+                                class="fa fa-users-cog fa-4x text-primary mb-4"
+                            ></i>
+                            <h5 class="mb-3">Marktanalysten</h5>
+                            <h1 class="display-5 mb-0" data-toggle="counter-up">
+                                15
+                            </h1>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div
+                            class="fact-item bg-light rounded text-center h-100 p-5"
+                        >
+                            <i class="fa fa-users fa-4x text-primary mb-4"></i>
+                            <h5 class="mb-3">Zufriedene Leser</h5>
+                            <h1 class="display-5 mb-0" data-toggle="counter-up">
+                                3420
+                            </h1>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.7s"
+                    >
+                        <div
+                            class="fact-item bg-light rounded text-center h-100 p-5"
+                        >
+                            <i class="fa fa-check fa-4x text-primary mb-4"></i>
+                            <h5 class="mb-3">Veröffentlichte Artikel</h5>
+                            <h1 class="display-5 mb-0" data-toggle="counter-up">
+                                128
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Facts End -->
+
+        <!-- About Start -->
+        <div id="about" class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="img-border">
+                            <img class="img-fluid" src="img/about.jpg" alt="" />
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="h-100">
+                            <h6
+                                class="section-title bg-white text-start text-primary pe-3"
+                            >
+                                Über uns
+                            </h6>
+                            <h1 class="display-6 mb-4">
+                                Wissensvermittlung für Startup-Investitionen
+                            </h1>
+                            <p>
+                                Wir sind ein Team von Experten, das sich auf die
+                                Analyse von Startups, Bewertung von
+                                Geschäftsmodellen und Finanzstrategien
+                                spezialisiert hat. Unser Ziel ist es, Lesern
+                                tiefgehende Einblicke in aufstrebende
+                                Unternehmen zu geben und die zugrunde liegenden
+                                Technologien wie Künstliche Intelligenz
+                                verständlich zu erklären.
+                            </p>
+                            <p class="mb-4">
+                                Unsere Analysen umfassen Markttrends,
+                                Risikomanagement und Wachstumsstrategien, um
+                                fundiertes Wissen für angehende Investoren
+                                bereitzustellen. Wir stellen sicher, dass
+                                komplexe Finanzinformationen verständlich und
+                                praxisnah vermittelt werden.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Service Start -->
+        <div id="service" class="container-xxl py-5">
+            <div class="container">
+                <div
+                    class="text-center mx-auto mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 600px"
+                >
+                    <h6
+                        class="section-title bg-white text-center text-primary px-3"
+                    >
+                        Dienstleistungen
+                    </h6>
+                    <h1 class="display-6 mb-4">
+                        Unsere Bildungsangebote zu Startup-Investitionen
+                    </h1>
+                    <p>
+                        Wir bieten eine breite Palette an Ressourcen und
+                        Analysen für Investoren, die sich für Startups
+                        interessieren. Unsere Inhalte umfassen Marktanalysen,
+                        Bewertungen von Geschäftsmodellen, Finanzstrategien und
+                        technologische Trends. Ziel ist es, fundiertes Wissen
+                        für eine erfolgreiche Investitionsstrategie aufzubauen.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <a
+                            class="service-item d-block rounded text-center h-100 p-4"
+                            href=""
+                        >
+                            <img
+                                class="img-fluid rounded mb-4"
+                                src="img/service-1.jpg"
+                                alt=""
+                            />
+                            <h4 class="mb-0">Marktanalyse</h4>
+                        </a>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <a
+                            class="service-item d-block rounded text-center h-100 p-4"
+                            href=""
+                        >
+                            <img
+                                class="img-fluid rounded mb-4"
+                                src="img/service-2.jpg"
+                                alt=""
+                            />
+                            <h4 class="mb-0">Finanzstrategien</h4>
+                        </a>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <a
+                            class="service-item d-block rounded text-center h-100 p-4"
+                            href=""
+                        >
+                            <img
+                                class="img-fluid rounded mb-4"
+                                src="img/service-3.jpg"
+                                alt=""
+                            />
+                            <h4 class="mb-0">Technologie & KI</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+        <!-- Feature Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="h-100">
+                            <h6
+                                class="section-title bg-white text-start text-primary pe-3"
+                            >
+                                Warum uns wählen
+                            </h6>
+                            <h1 class="display-6 mb-4">
+                                Vorteile unserer Bildungsressourcen für
+                                Startup-Investitionen
+                            </h1>
+                            <p class="mb-4">
+                                Unsere Plattform bietet qualitativ hochwertige
+                                Analysen, Marktberichte und Einblicke in
+                                innovative Geschäftsmodelle. Wir erklären
+                                komplexe Finanzinstrumente verständlich und
+                                bieten praxisnahe Strategien für angehende
+                                Investoren.
+                            </p>
+                            <div class="row g-4">
+                                <div class="col-12">
+                                    <div class="skill">
+                                        <div
+                                            class="d-flex justify-content-between"
+                                        >
+                                            <p class="mb-2">
+                                                Fundierte Marktanalysen
+                                            </p>
+                                            <p class="mb-2">90%</p>
+                                        </div>
+                                        <div class="progress">
+                                            <div
+                                                class="progress-bar bg-primary"
+                                                role="progressbar"
+                                                aria-valuenow="90"
+                                                aria-valuemin="0"
+                                                aria-valuemax="100"
+                                            ></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="skill">
+                                        <div
+                                            class="d-flex justify-content-between"
+                                        >
+                                            <p class="mb-2">
+                                                Bewertung von Geschäftsmodellen
+                                            </p>
+                                            <p class="mb-2">85%</p>
+                                        </div>
+                                        <div class="progress">
+                                            <div
+                                                class="progress-bar bg-primary"
+                                                role="progressbar"
+                                                aria-valuenow="85"
+                                                aria-valuemin="0"
+                                                aria-valuemax="100"
+                                            ></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="skill">
+                                        <div
+                                            class="d-flex justify-content-between"
+                                        >
+                                            <p class="mb-2">
+                                                Technologie- und KI-Einblicke
+                                            </p>
+                                            <p class="mb-2">95%</p>
+                                        </div>
+                                        <div class="progress">
+                                            <div
+                                                class="progress-bar bg-primary"
+                                                role="progressbar"
+                                                aria-valuenow="95"
+                                                aria-valuemin="0"
+                                                aria-valuemax="100"
+                                            ></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="img-border">
+                            <img
+                                class="img-fluid"
+                                src="img/feature.jpg"
+                                alt="Startup Analyse"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feature End -->
+
+        <!-- Project Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div
+                    class="text-center mx-auto mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 600px"
+                >
+                    <h6
+                        class="section-title bg-white text-center text-primary px-3"
+                    >
+                        Unsere Projekte
+                    </h6>
+                    <h1 class="display-6 mb-4">
+                        Einblicke in unsere Analysen und Fallstudien zu Startups
+                    </h1>
+                    <p>
+                        Wir veröffentlichen detaillierte Fallstudien und
+                        Analysen zu Startups, bewerten Geschäftsmodelle,
+                        Marktchancen und technologische Innovationen. Unsere
+                        Projekte zeigen praxisnahe Strategien und datenbasierte
+                        Erkenntnisse für angehende Investoren.
+                    </p>
+                </div>
+                <div
+                    class="owl-carousel project-carousel wow fadeInUp"
+                    data-wow-delay="0.1s"
+                >
+                    <div
+                        class="project-item border rounded h-100 p-4"
+                        data-dot="01"
+                    >
+                        <div class="position-relative mb-4">
+                            <img
+                                class="img-fluid rounded"
+                                src="img/project-1.jpg"
+                                alt="Marktanalyse"
+                            />
+                            <a href="img/project-1.jpg" data-lightbox="project"
+                                ><i class="fa fa-eye fa-2x"></i
+                            ></a>
+                        </div>
+                        <h6>Marktanalyse für Startups</h6>
+                        <span
+                            >Analysen von Wachstumschancen, Risikofaktoren und
+                            Branchentrends junger Unternehmen.</span
+                        >
+                    </div>
+                    <div
+                        class="project-item border rounded h-100 p-4"
+                        data-dot="02"
+                    >
+                        <div class="position-relative mb-4">
+                            <img
+                                class="img-fluid rounded"
+                                src="img/project-2.jpg"
+                                alt="Finanzstrategien"
+                            />
+                            <a href="img/project-2.jpg" data-lightbox="project"
+                                ><i class="fa fa-eye fa-2x"></i
+                            ></a>
+                        </div>
+                        <h6>Finanzstrategien</h6>
+                        <span
+                            >Bewertung von Geschäftsmodellen und
+                            Finanzierungsansätzen für nachhaltige Entwicklung
+                            von Startups.</span
+                        >
+                    </div>
+                    <div
+                        class="project-item border rounded h-100 p-4"
+                        data-dot="03"
+                    >
+                        <div class="position-relative mb-4">
+                            <img
+                                class="img-fluid rounded"
+                                src="img/project-3.jpg"
+                                alt="KI-Technologien"
+                            />
+                            <a href="img/project-3.jpg" data-lightbox="project"
+                                ><i class="fa fa-eye fa-2x"></i
+                            ></a>
+                        </div>
+                        <h6>Technologie & KI</h6>
+                        <span
+                            >Einblicke in die Anwendung von Künstlicher
+                            Intelligenz und Innovationen zur Optimierung von
+                            Geschäftsprozessen.</span
+                        >
+                    </div>
+                    <div
+                        class="project-item border rounded h-100 p-4"
+                        data-dot="04"
+                    >
+                        <div class="position-relative mb-4">
+                            <img
+                                class="img-fluid rounded"
+                                src="img/project-4.jpg"
+                                alt="Startup Fallstudien"
+                            />
+                            <a href="img/project-4.jpg" data-lightbox="project"
+                                ><i class="fa fa-eye fa-2x"></i
+                            ></a>
+                        </div>
+                        <h6>Fallstudien zu Startups</h6>
+                        <span
+                            >Detaillierte Analysen von Geschäftsmodellen,
+                            Markttrends und innovativen Produkten junger
+                            Unternehmen.</span
+                        >
+                    </div>
+                    <div
+                        class="project-item border rounded h-100 p-4"
+                        data-dot="05"
+                    >
+                        <div class="position-relative mb-4">
+                            <img
+                                class="img-fluid rounded"
+                                src="img/project-5.jpg"
+                                alt="Datenanalyse"
+                            />
+                            <a href="img/project-5.jpg" data-lightbox="project"
+                                ><i class="fa fa-eye fa-2x"></i
+                            ></a>
+                        </div>
+                        <h6>Datenbasierte Einblicke</h6>
+                        <span
+                            >Analyse von Marktdaten, KPIs und
+                            Wachstumspotenzialen für Startups, ohne direkte
+                            Kaufempfehlungen.</span
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Project End -->
+
+        <!-- Testimonial Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div
+                    class="text-center mx-auto mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 600px"
+                >
+                    <h6
+                        class="section-title bg-white text-center text-primary px-3"
+                    >
+                        Kundenfeedback
+                    </h6>
+                    <h1 class="display-6 mb-4">Was unsere Leser sagen!</h1>
+                </div>
+                <div
+                    class="owl-carousel testimonial-carousel wow fadeInUp"
+                    data-wow-delay="0.1s"
+                >
+                    <div class="testimonial-item bg-light rounded p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <img
+                                class="flex-shrink-0 rounded-circle border p-1"
+                                src="img/testimonial-1.jpg"
+                                alt=""
+                            />
+                            <div class="ms-4">
+                                <h5 class="mb-1">Friedrich Müller</h5>
+                            </div>
+                        </div>
+                        <p class="mb-0">
+                            "Die Artikel und Analysen dieser Plattform haben mir
+                            geholfen, die Dynamik von Startups besser zu
+                            verstehen. Die detaillierten Fallstudien und
+                            praxisnahen Strategien sind äußerst lehrreich und
+                            bieten wertvolle Einblicke für angehende
+                            Investoren."
+                        </p>
+                    </div>
+                    <div class="testimonial-item bg-light rounded p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <img
+                                class="flex-shrink-0 rounded-circle border p-1"
+                                src="img/testimonial-2.jpg"
+                                alt=""
+                            />
+                            <div class="ms-4">
+                                <h5 class="mb-1">Claudia Schneider</h5>
+                            </div>
+                        </div>
+                        <p class="mb-0">
+                            "Die Plattform liefert fundierte Analysen und
+                            technische Einblicke, die mir geholfen haben,
+                            komplexe Geschäftsmodelle von Startups besser zu
+                            bewerten. Besonders die Artikel zu innovativen
+                            Technologien sind sehr informativ."
+                        </p>
+                    </div>
+                    <div class="testimonial-item bg-light rounded p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <img
+                                class="flex-shrink-0 rounded-circle border p-1"
+                                src="img/testimonial-3.jpg"
+                                alt=""
+                            />
+                            <div class="ms-4">
+                                <h5 class="mb-1">Lukas Hoffmann</h5>
+                            </div>
+                        </div>
+                        <p class="mb-0">
+                            "Die praxisnahen Analysen zu Markttrends und
+                            Startup-Technologien haben mir geholfen, meine
+                            Strategien zu entwickeln. Die Inhalte sind klar
+                            strukturiert und leicht verständlich, ideal für
+                            Bildungszwecke."
+                        </p>
+                    </div>
+                    <div class="testimonial-item bg-light rounded p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <img
+                                class="flex-shrink-0 rounded-circle border p-1"
+                                src="img/testimonial-4.jpg"
+                                alt=""
+                            />
+                            <div class="ms-4">
+                                <h5 class="mb-1">Martina Weber</h5>
+                            </div>
+                        </div>
+                        <p class="mb-0">
+                            "Die Artikel über innovative Geschäftsmodelle und
+                            KI-Technologien sind äußerst wertvoll. Sie bieten
+                            praktische Einblicke und helfen, fundierte
+                            Entscheidungen in Bildungsprojekten zum Thema
+                            Startup-Investitionen zu treffen."
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+        <!-- Contact Start -->
+        <div id="contact" class="container-xxl py-5">
+            <div class="container">
+                <div
+                    class="text-center mx-auto mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 600px"
+                >
+                    <h6
+                        class="section-title bg-white text-center text-primary px-3"
+                    >
+                        Kontaktieren Sie uns
+                    </h6>
+                    <h1 class="display-6 mb-4">
+                        Haben Sie Fragen? Kontaktieren Sie unser Expertenteam
+                    </h1>
+                </div>
+                <div class="row g-3">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <p class="text-center mb-4">
+                            Unser Team steht Ihnen für alle Fragen rund um
+                            Startup-Analysen, Markttrends und innovative
+                            Finanzstrategien zur Verfügung. Wenn Sie mehr über
+                            unsere Bildungsinhalte oder die Analyse von
+                            Geschäftsmodellen erfahren möchten, helfen wir Ihnen
+                            gerne weiter.
+                        </p>
+                        <form action="thanks.html" method="get">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="name"
+                                            placeholder="Ihr Name"
+                                            required
+                                        />
+                                        <label for="name">Ihr Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input
+                                            type="email"
+                                            class="form-control"
+                                            id="email"
+                                            placeholder="Ihre E-Mail"
+                                            required
+                                        />
+                                        <label for="email">Ihre E-Mail</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="subject"
+                                            placeholder="Betreff"
+                                            required
+                                        />
+                                        <label for="subject">Betreff</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea
+                                            class="form-control"
+                                            placeholder="Ihre Nachricht"
+                                            id="message"
+                                            style="height: 200px"
+                                            required
+                                        ></textarea>
+                                        <label for="message">Nachricht</label>
+                                    </div>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <button
+                                        class="btn btn-primary rounded-pill py-3 px-5"
+                                        type="submit"
+                                        id="submit"
+                                    >
+                                        Nachricht senden
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-5">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1883.7087068585247!2d30.485419456164987!3d50.482583067076604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf327e6b165d%3A0x59e8390d5c729874!2z0KXQuNGC0LjQvdCzINCj0LrRgNCw0LjQvdCwIChIZWF0aW5nIFVrcmFpbmUp!5e0!3m2!1suk!2sua!4v1738085330269!5m2!1suk!2sua"
+                        ></iframe>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19428.697106827476!2d13.295107139334828!3d52.504712700000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a851eab0aed0af%3A0x17b1253546b2128d!2sFreedom%20Finance%20Germany%20GmbH!5e0!3m2!1suk!2sua!4v1757328702220!5m2!1suk!2sua"
+                            width="100%"
+                            height="450"
+                            style="border: 0"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid bg-dark text-body footer mt-5 pt-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="text-light mb-4">Startup-Investitionen</h5>
+                        <p class="mb-2">
+                            Bleiben Sie mit uns in Kontakt, um fundierte
+                            Analysen und Strategien für Startup-Investitionen zu
+                            entdecken. Unsere Artikel bieten praxisnahe
+                            Einblicke in innovative Geschäftsmodelle,
+                            Markttrends und Technologien, die hinter den
+                            erfolgreichsten Startups stehen.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="text-light mb-4">Kontaktinformationen</h5>
+                        <p class="mb-2">
+                            <i class="fa fa-map-marker-alt me-3"></i>Neue Straße
+                            11, Berlin, 10115
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-phone-alt me-3"></i>+49 30 1234567
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-envelope me-3"></i
+                            >investieren_lernen@gmail.com
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="text-light mb-4">Schnellzugriff</h5>
+                        <a class="btn btn-link" href="index.html">Startseite</a>
+                        <a class="btn btn-link" href="index.html#about"
+                            >Über uns</a
+                        >
+                        <a class="btn btn-link" href="index.html#contact"
+                            >Kontakt</a
+                        >
+                        <a class="btn btn-link" href="terms-of-use.html"
+                            >Nutzungsbedingungen</a
+                        >
+                        <a class="btn btn-link" href="privacy-policy.html"
+                            >Datenschutzrichtlinie</a
+                        >
+                        <a class="btn btn-link" href="cookie-policy.html"
+                            >Cookies</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Cookie-Zustimmung</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Diese Website verwendet Cookies, um Ihre Erfahrung zu
+                    verbessern und relevante Inhalte zu Startups, Marktanalysen,
+                    Finanzstrategien und Technologien im Bildungsbereich
+                    bereitzustellen.
+                    <a href="cookie-policy.html">Mehr erfahren...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">
+                    Akzeptieren
+                </button>
+                <button class="cookie-button" id="declineBtn">Ablehnen</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"
+            ><i class="bi bi-arrow-up"></i
+        ></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
